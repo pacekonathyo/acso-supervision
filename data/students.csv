@@ -1,0 +1,301 @@
+id,interests
+stu000,Natural Language Processing
+stu001,Data Mining
+stu002,Information Retrieval|Natural Language Processing
+stu003,Computer Vision|Deep Learning
+stu004,Natural Language Processing
+stu005,Natural Language Processing|Information Retrieval
+stu006,Network Security
+stu007,Deep Learning|Computer Vision
+stu008,Computer Vision
+stu009,Software Testing
+stu010,Semantic Web
+stu011,Semantic Web
+stu012,Natural Language Processing|Information Retrieval
+stu013,Reinforcement Learning|Data Management
+stu014,Semantic Web
+stu015,Recommender Systems|Machine Learning
+stu016,Natural Language Processing|Information Retrieval
+stu017,Recommender Systems|Machine Learning
+stu018,Requirements Engineering
+stu019,Requirements Engineering
+stu020,Databases
+stu021,Information Retrieval|Natural Language Processing
+stu022,Information Retrieval|Natural Language Processing
+stu023,Software Testing
+stu024,Requirements Engineering|Recommender Systems
+stu025,Ontologies
+stu026,Recommender Systems|Machine Learning
+stu027,Requirements Engineering|Requirements Engineering
+stu028,Requirements Engineering
+stu029,Natural Language Processing|Information Retrieval
+stu030,Requirements Engineering|Deep Learning
+stu031,Databases|Information Retrieval
+stu032,Ontologies
+stu033,Software Testing|Ontologies
+stu034,Requirements Engineering
+stu035,Semantic Web
+stu036,Ontologies|Semantic Web
+stu037,Requirements Engineering
+stu038,Software Testing
+stu039,Data Mining
+stu040,Deep Learning|Computer Vision
+stu041,Computer Vision
+stu042,Wireless Networks|Data Mining
+stu043,Software Testing|Requirements Engineering
+stu044,Recommender Systems
+stu045,Software Testing
+stu046,Reinforcement Learning
+stu047,Recommender Systems|Machine Learning
+stu048,Databases
+stu049,Ontologies|Semantic Web
+stu050,Wireless Networks
+stu051,Software Testing
+stu052,Ontologies
+stu053,Information Retrieval|Natural Language Processing
+stu054,Deep Learning|Computer Vision
+stu055,Recommender Systems|Machine Learning
+stu056,Deep Learning|Computer Vision
+stu057,Semantic Web|Data Management
+stu058,Network Security|Recommender Systems
+stu059,Network Security|Ontologies
+stu060,Network Security
+stu061,Reinforcement Learning
+stu062,Computer Vision
+stu063,Software Testing
+stu064,Ontologies|Semantic Web
+stu065,Information Retrieval
+stu066,Wireless Networks
+stu067,Wireless Networks|Semantic Web
+stu068,Software Testing
+stu069,Deep Learning|Computer Vision
+stu070,Network Security|Networking
+stu071,Natural Language Processing
+stu072,Software Testing|Databases
+stu073,Wireless Networks|Data Mining
+stu074,Reinforcement Learning
+stu075,Network Security
+stu076,Requirements Engineering|Wireless Networks
+stu077,Network Security|Recommender Systems
+stu078,Databases|Networking
+stu079,Natural Language Processing|Information Retrieval
+stu080,Natural Language Processing
+stu081,Network Security|Ontologies
+stu082,Information Retrieval
+stu083,Ontologies|Semantic Web
+stu084,Natural Language Processing|Information Retrieval
+stu085,Software Testing
+stu086,Computer Vision
+stu087,Deep Learning|Computer Vision
+stu088,Reinforcement Learning|Data Mining
+stu089,Ontologies
+stu090,Reinforcement Learning
+stu091,Ontologies
+stu092,Software Testing|Software Testing
+stu093,Reinforcement Learning
+stu094,Semantic Web|Ontologies
+stu095,Information Retrieval|Natural Language Processing
+stu096,Information Retrieval
+stu097,Network Security|Deep Learning
+stu098,Data Mining
+stu099,Wireless Networks
+stu100,Data Mining
+stu101,Information Retrieval
+stu102,Reinforcement Learning
+stu103,Software Testing
+stu104,Software Testing|Semantic Web
+stu105,Network Security
+stu106,Data Mining
+stu107,Natural Language Processing|Information Retrieval
+stu108,Wireless Networks|Ontologies
+stu109,Natural Language Processing
+stu110,Wireless Networks|Data Mining
+stu111,Network Security|Requirements Engineering
+stu112,Requirements Engineering|Semantic Web
+stu113,Software Testing|Ontologies
+stu114,Wireless Networks
+stu115,Information Retrieval|Natural Language Processing
+stu116,Wireless Networks
+stu117,Information Retrieval
+stu118,Deep Learning
+stu119,Reinforcement Learning
+stu120,Network Security|Reinforcement Learning
+stu121,Wireless Networks|Reinforcement Learning
+stu122,Deep Learning|Computer Vision
+stu123,Natural Language Processing|Information Retrieval
+stu124,Recommender Systems|Machine Learning
+stu125,Data Mining|Machine Learning
+stu126,Ontologies
+stu127,Deep Learning
+stu128,Requirements Engineering
+stu129,Ontologies
+stu130,Data Mining|Machine Learning
+stu131,Semantic Web|Data Management
+stu132,Ontologies
+stu133,Natural Language Processing|Information Retrieval
+stu134,Natural Language Processing
+stu135,Information Retrieval|Natural Language Processing
+stu136,Data Mining
+stu137,Natural Language Processing|Information Retrieval
+stu138,Deep Learning|Computer Vision
+stu139,Information Retrieval
+stu140,Software Testing
+stu141,Information Retrieval
+stu142,Wireless Networks|Information Retrieval
+stu143,Natural Language Processing|Information Retrieval
+stu144,Semantic Web
+stu145,Information Retrieval|Natural Language Processing
+stu146,Recommender Systems|Machine Learning
+stu147,Requirements Engineering
+stu148,Ontologies|Semantic Web
+stu149,Reinforcement Learning|Reinforcement Learning
+stu150,Ontologies|Semantic Web
+stu151,Information Retrieval
+stu152,Ontologies|Semantic Web
+stu153,Network Security|Software Engineering
+stu154,Requirements Engineering
+stu155,Databases|Software Engineering
+stu156,Information Retrieval|Natural Language Processing
+stu157,Data Mining
+stu158,Network Security
+stu159,Software Testing
+stu160,Software Testing
+stu161,Ontologies
+stu162,Information Retrieval
+stu163,Network Security|Software Testing
+stu164,Computer Vision
+stu165,Semantic Web|Ontologies
+stu166,Requirements Engineering|Computing
+stu167,Databases|Semantic Web
+stu168,Data Mining|Machine Learning
+stu169,Ontologies
+stu170,Ontologies|Semantic Web
+stu171,Information Retrieval
+stu172,Semantic Web
+stu173,Data Mining
+stu174,Information Retrieval
+stu175,Requirements Engineering
+stu176,Software Testing
+stu177,Network Security|Information Retrieval
+stu178,Requirements Engineering|Knowledge Representation
+stu179,Wireless Networks|Computer Vision
+stu180,Databases
+stu181,Reinforcement Learning
+stu182,Reinforcement Learning
+stu183,Ontologies|Semantic Web
+stu184,Semantic Web|Data Management
+stu185,Recommender Systems
+stu186,Ontologies|Semantic Web
+stu187,Network Security
+stu188,Reinforcement Learning|Computing
+stu189,Deep Learning
+stu190,Wireless Networks
+stu191,Reinforcement Learning
+stu192,Software Testing
+stu193,Information Retrieval
+stu194,Software Testing
+stu195,Ontologies
+stu196,Ontologies
+stu197,Databases
+stu198,Network Security
+stu199,Ontologies
+stu200,Ontologies|Semantic Web
+stu201,Natural Language Processing
+stu202,Wireless Networks|Ontologies
+stu203,Semantic Web|Data Management
+stu204,Wireless Networks
+stu205,Computer Vision|Deep Learning
+stu206,Information Retrieval|Natural Language Processing
+stu207,Wireless Networks
+stu208,Computer Vision
+stu209,Recommender Systems|Machine Learning
+stu210,Deep Learning
+stu211,Reinforcement Learning
+stu212,Requirements Engineering|Computer Vision
+stu213,Deep Learning|Computer Vision
+stu214,Information Retrieval|Natural Language Processing
+stu215,Data Mining|Machine Learning
+stu216,Semantic Web|Ontologies
+stu217,Recommender Systems|Machine Learning
+stu218,Wireless Networks
+stu219,Ontologies
+stu220,Requirements Engineering
+stu221,Ontologies
+stu222,Information Retrieval
+stu223,Information Retrieval|Natural Language Processing
+stu224,Ontologies|Semantic Web
+stu225,Network Security|Software Testing
+stu226,Recommender Systems
+stu227,Databases
+stu228,Information Retrieval
+stu229,Wireless Networks|Requirements Engineering
+stu230,Information Retrieval
+stu231,Information Retrieval
+stu232,Wireless Networks
+stu233,Requirements Engineering|Data Mining
+stu234,Ontologies
+stu235,Natural Language Processing|Information Retrieval
+stu236,Ontologies
+stu237,Wireless Networks|Information Retrieval
+stu238,Reinforcement Learning|Ontologies
+stu239,Computer Vision|Deep Learning
+stu240,Semantic Web
+stu241,Network Security|Wireless Networks
+stu242,Databases|Computer Vision
+stu243,Databases
+stu244,Reinforcement Learning|Data Management
+stu245,Wireless Networks
+stu246,Data Mining
+stu247,Ontologies|Semantic Web
+stu248,Network Security
+stu249,Databases|Knowledge Representation
+stu250,Natural Language Processing
+stu251,Network Security
+stu252,Wireless Networks|Semantic Web
+stu253,Network Security
+stu254,Requirements Engineering
+stu255,Software Testing|Semantic Web
+stu256,Computer Vision
+stu257,Deep Learning
+stu258,Information Retrieval
+stu259,Semantic Web|Ontologies
+stu260,Software Testing
+stu261,Wireless Networks|Databases
+stu262,Semantic Web|Ontologies
+stu263,Computer Vision|Deep Learning
+stu264,Information Retrieval|Natural Language Processing
+stu265,Databases|Ontologies
+stu266,Reinforcement Learning
+stu267,Databases|Computing
+stu268,Reinforcement Learning
+stu269,Reinforcement Learning
+stu270,Ontologies
+stu271,Databases|Wireless Networks
+stu272,Information Retrieval|Natural Language Processing
+stu273,Software Testing|Machine Learning
+stu274,Requirements Engineering
+stu275,Data Mining|Machine Learning
+stu276,Reinforcement Learning|Ontologies
+stu277,Semantic Web|Data Management
+stu278,Deep Learning
+stu279,Wireless Networks|Information Retrieval
+stu280,Network Security
+stu281,Reinforcement Learning|Machine Learning
+stu282,Computer Vision
+stu283,Requirements Engineering|Artificial Intelligence
+stu284,Reinforcement Learning
+stu285,Software Testing
+stu286,Computer Vision
+stu287,Semantic Web|Data Management
+stu288,Software Testing
+stu289,Reinforcement Learning
+stu290,Deep Learning
+stu291,Reinforcement Learning|Data Mining
+stu292,Requirements Engineering|Wireless Networks
+stu293,Requirements Engineering|Recommender Systems
+stu294,Computer Vision
+stu295,Semantic Web|Data Management
+stu296,Natural Language Processing
+stu297,Databases|Semantic Web
+stu298,Natural Language Processing
+stu299,Information Retrieval

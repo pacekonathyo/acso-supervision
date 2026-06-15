@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 460" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 z" fill="#3c4d57"/>
+    </marker>
+    <marker id="arrowteal" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 z" fill="#1c6e69"/>
+    </marker>
+  </defs>
+  <rect x="0" y="0" width="980" height="460" fill="#ffffff"/>
+
+  <!-- ===== LEFT: query + taxonomy reasoning ===== -->
+  <text x="36" y="40" font-size="15" font-weight="bold" fill="#16242e">Query</text>
+  <rect x="36" y="52" width="250" height="60" rx="8" fill="#f4efe4" stroke="#ddd4c1"/>
+  <text x="50" y="76" font-size="12.5" fill="#3c4d57">Student research interest:</text>
+  <text x="50" y="98" font-size="14" font-weight="bold" fill="#16242e">Deep Learning</text>
+
+  <text x="36" y="150" font-size="15" font-weight="bold" fill="#16242e">Taxonomy reasoning (is-a)</text>
+  <!-- vertical path Computing -> AI -> ML -> DL, with ML and DL highlighted -->
+  <g font-size="12.5">
+    <rect x="36" y="166" width="160" height="26" rx="5" fill="#fbfaf6" stroke="#ddd4c1"/>
+    <text x="48" y="183" fill="#6b7780">Computing</text>
+    <line x1="60" y1="192" x2="60" y2="206" stroke="#9aa6ad" marker-end="url(#arrow)"/>
+
+    <rect x="36" y="208" width="180" height="26" rx="5" fill="#fbfaf6" stroke="#ddd4c1"/>
+    <text x="48" y="225" fill="#6b7780">Artificial Intelligence</text>
+    <line x1="60" y1="234" x2="60" y2="248" stroke="#1c6e69" marker-end="url(#arrowteal)"/>
+
+    <rect x="36" y="250" width="180" height="26" rx="5" fill="#e2efed" stroke="#1c6e69"/>
+    <text x="48" y="267" fill="#0f4f4a" font-weight="bold">Machine Learning</text>
+    <text x="232" y="267" font-size="11" fill="#1c6e69">&#8592; shared ancestor (LCS)</text>
+    <line x1="60" y1="276" x2="60" y2="290" stroke="#1c6e69" marker-end="url(#arrowteal)"/>
+
+    <rect x="36" y="292" width="160" height="26" rx="5" fill="#d4e7e4" stroke="#1c6e69"/>
+    <text x="48" y="309" fill="#0f4f4a" font-weight="bold">Deep Learning</text>
+  </g>
+  <text x="36" y="350" font-size="12" fill="#3c4d57" font-style="italic">Wu&#8211;Palmer similarity</text>
+  <text x="36" y="370" font-size="13" fill="#16242e">sim = 2&#183;depth(LCS) / (depth(DL)+depth(ML))</text>
+  <text x="36" y="390" font-size="13" fill="#16242e">    = 2&#183;3 / (4+3) = <tspan font-weight="bold" fill="#0f4f4a">0.86</tspan></text>
+
+  <!-- arrow to reasoner -->
+  <line x1="300" y1="240" x2="345" y2="240" stroke="#3c4d57" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="306" y="232" font-size="10.5" fill="#6b7780">reasoner</text>
+
+  <!-- ===== RIGHT: explained recommendation card ===== -->
+  <text x="366" y="40" font-size="15" font-weight="bold" fill="#16242e">Recommended supervisor &#8212; with justification</text>
+
+  <rect x="366" y="56" width="580" height="360" rx="12" fill="#fffdf7" stroke="#ddd4c1"/>
+  <rect x="366" y="56" width="6" height="360" rx="3" fill="#b8893b"/>
+
+  <text x="392" y="88" font-size="17" font-weight="bold" fill="#16242e">Supervisor S<tspan baseline-shift="sub" font-size="11">a</tspan></text>
+  <text x="392" y="110" font-size="12.5" fill="#6b7780">expertise: Machine Learning &#183; Computer Vision</text>
+
+  <!-- final score badge -->
+  <text x="930" y="86" font-size="26" font-weight="bold" fill="#0f4f4a" text-anchor="end" font-family="'Courier New', monospace">0.87</text>
+  <text x="930" y="104" font-size="10.5" fill="#6b7780" text-anchor="end" letter-spacing="0.5">FINAL SCORE</text>
+
+  <line x1="392" y1="124" x2="920" y2="124" stroke="#eee6d6"/>
+
+  <text x="392" y="150" font-size="13" font-weight="bold" fill="#16242e">Why this supervisor (entailed by the ontology):</text>
+
+  <g font-size="12.8" fill="#3c4d57">
+    <circle cx="400" cy="173" r="3" fill="#1c6e69"/>
+    <text x="414" y="177">Topic match: student&#8217;s <tspan font-weight="bold" fill="#16242e">Deep Learning</tspan> is-a supervisor&#8217;s</text>
+    <text x="414" y="195"><tspan font-weight="bold" fill="#16242e">Machine Learning</tspan> via the taxonomy &#8594; Wu&#8211;Palmer sim = <tspan font-weight="bold" fill="#0f4f4a">0.86</tspan></text>
+
+    <circle cx="400" cy="221" r="3" fill="#1c6e69"/>
+    <text x="414" y="225">Availability (rule R1): currentLoad 2 &lt; maxCapacity 5</text>
+    <text x="414" y="243">&#8594; classified <tspan font-weight="bold" fill="#16242e">AvailableSupervisor</tspan></text>
+
+    <circle cx="400" cy="269" r="3" fill="#1c6e69"/>
+    <text x="414" y="273">Quality re-rank: historical on-time completion = <tspan font-weight="bold" fill="#16242e">0.90</tspan></text>
+
+    <circle cx="400" cy="297" r="3" fill="#1c6e69"/>
+    <text x="414" y="301">Score = 0.8&#183;sim + 0.2&#183;quality = 0.8(0.86) + 0.2(0.90) = <tspan font-weight="bold" fill="#0f4f4a">0.87</tspan></text>
+  </g>
+
+  <!-- score decomposition bar -->
+  <text x="392" y="338" font-size="11.5" fill="#6b7780">score composition</text>
+  <rect x="392" y="346" width="528" height="18" rx="4" fill="#f4efe4" stroke="#ddd4c1"/>
+  <rect x="392" y="346" width="362" height="18" rx="4" fill="#1c6e69"/>
+  <rect x="754" y="346" width="95" height="18" fill="#b8893b"/>
+  <text x="400" y="359" font-size="11" fill="#ffffff">semantic 0.69</text>
+  <text x="762" y="359" font-size="11" fill="#ffffff">quality 0.18</text>
+
+  <line x1="392" y1="382" x2="920" y2="382" stroke="#eee6d6"/>
+  <text x="392" y="402" font-size="11.5" fill="#6b7780" font-style="italic">Every factor above is a logical consequence of asserted facts, so the</text>
+  <text x="392" y="418" font-size="11.5" fill="#6b7780" font-style="italic">recommendation carries an inspectable, human-readable justification.</text>
+</svg>

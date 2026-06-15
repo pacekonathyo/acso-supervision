@@ -1,0 +1,251 @@
+pair_code,student_interests,candidate_supervisor_expertise,expert_1,expert_2,expert_3
+P001,Natural Language Processing; Information Retrieval,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,0,0,0
+P002,Natural Language Processing; Information Retrieval,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,1,1,1
+P003,Natural Language Processing; Information Retrieval,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,0,0,0
+P004,Natural Language Processing; Information Retrieval,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",0,0,0
+P005,Natural Language Processing; Information Retrieval,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,0,0,0
+P006,Computer Vision; Deep Learning,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",0,0,0
+P007,Computer Vision; Deep Learning,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,1,1,1
+P008,Computer Vision; Deep Learning,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,0,0,0
+P009,Computer Vision; Deep Learning,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,0,0,0
+P010,Computer Vision; Deep Learning,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,1,1,1
+P011,Data Mining; Databases,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,0,0,0
+P012,Data Mining; Databases,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",0,0,0
+P013,Data Mining; Databases,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,0,0,0
+P014,Data Mining; Databases,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,0,0,0
+P015,Data Mining; Databases,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,1,1,1
+P016,Software Testing; Requirements Engineering,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,0,0,0
+P017,Software Testing; Requirements Engineering,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,0,0,0
+P018,Software Testing; Requirements Engineering,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,0,0,0
+P019,Software Testing; Requirements Engineering,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,0,0,0
+P020,Software Testing; Requirements Engineering,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",1,1,1
+P021,Machine Learning; Reinforcement Learning,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",0,0,0
+P022,Machine Learning; Reinforcement Learning,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,0,0,0
+P023,Machine Learning; Reinforcement Learning,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,0,0,0
+P024,Machine Learning; Reinforcement Learning,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,0,0,0
+P025,Machine Learning; Reinforcement Learning,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,0,0,0
+P026,Semantic Web; Ontologies,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,0,0,0
+P027,Semantic Web; Ontologies,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,0,0,0
+P028,Semantic Web; Ontologies,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,0,0,0
+P029,Semantic Web; Ontologies,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,0,0,0
+P030,Semantic Web; Ontologies,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",0,0,0
+P031,Deep Learning; Computer Vision,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,0,0,0
+P032,Deep Learning; Computer Vision,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,1,1,1
+P033,Deep Learning; Computer Vision,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,0,0,0
+P034,Deep Learning; Computer Vision,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",0,0,0
+P035,Deep Learning; Computer Vision,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,1,1,1
+P036,Natural Language Processing; Machine Learning,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",0,0,0
+P037,Natural Language Processing; Machine Learning,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,1,1,1
+P038,Natural Language Processing; Machine Learning,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,0,0,0
+P039,Natural Language Processing; Machine Learning,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,0,0,0
+P040,Natural Language Processing; Machine Learning,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,0,0,0
+P041,Recommender Systems; Data Mining,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,1,1,1
+P042,Recommender Systems; Data Mining,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,0,0,0
+P043,Recommender Systems; Data Mining,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,0,0,0
+P044,Recommender Systems; Data Mining,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,0,0,0
+P045,Recommender Systems; Data Mining,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",0,0,0
+P046,Computer Vision; Artificial Intelligence,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,1,1,1
+P047,Computer Vision; Artificial Intelligence,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",0,0,0
+P048,Computer Vision; Artificial Intelligence,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,1,1,1
+P049,Computer Vision; Artificial Intelligence,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,1,1,1
+P050,Computer Vision; Artificial Intelligence,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,1,1,1
+P051,Natural Language Processing; Data Mining,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",0,0,0
+P052,Natural Language Processing; Data Mining,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,1,1,1
+P053,Natural Language Processing; Data Mining,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,1,1,1
+P054,Natural Language Processing; Data Mining,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,0,0,0
+P055,Natural Language Processing; Data Mining,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,0,0,0
+P056,Artificial Intelligence; Knowledge Representation,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,1,1,1
+P057,Artificial Intelligence; Knowledge Representation,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,1,1,1
+P058,Artificial Intelligence; Knowledge Representation,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,1,1,1
+P059,Artificial Intelligence; Knowledge Representation,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",0,0,0
+P060,Artificial Intelligence; Knowledge Representation,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,1,1,1
+P061,Computer Vision; Artificial Intelligence,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,1,1,1
+P062,Computer Vision; Artificial Intelligence,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,1,1,1
+P063,Computer Vision; Artificial Intelligence,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,1,1,1
+P064,Computer Vision; Artificial Intelligence,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",0,0,0
+P065,Computer Vision; Artificial Intelligence,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,1,1,1
+P066,Machine Learning; Natural Language Processing; Artificial Intelligence,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",0,0,0
+P067,Machine Learning; Natural Language Processing; Artificial Intelligence,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,1,1,1
+P068,Machine Learning; Natural Language Processing; Artificial Intelligence,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,1,1,1
+P069,Machine Learning; Natural Language Processing; Artificial Intelligence,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,1,1,1
+P070,Machine Learning; Natural Language Processing; Artificial Intelligence,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,1,1,1
+P071,Semantic Web; Requirements Engineering; Ontologies; Software Engineering,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,0,0,0
+P072,Semantic Web; Requirements Engineering; Ontologies; Software Engineering,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,0,0,0
+P073,Semantic Web; Requirements Engineering; Ontologies; Software Engineering,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,0,0,0
+P074,Semantic Web; Requirements Engineering; Ontologies; Software Engineering,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,0,0,0
+P075,Semantic Web; Requirements Engineering; Ontologies; Software Engineering,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",1,1,1
+P076,Ontologies; Information Retrieval; Semantic Web,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,0,0,0
+P077,Ontologies; Information Retrieval; Semantic Web,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,0,0,0
+P078,Ontologies; Information Retrieval; Semantic Web,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,0,0,0
+P079,Ontologies; Information Retrieval; Semantic Web,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",0,0,0
+P080,Ontologies; Information Retrieval; Semantic Web,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,0,0,0
+P081,Deep Learning; Artificial Intelligence,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,1,1,1
+P082,Deep Learning; Artificial Intelligence,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,1,1,1
+P083,Deep Learning; Artificial Intelligence,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,1,1,1
+P084,Deep Learning; Artificial Intelligence,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",0,0,0
+P085,Deep Learning; Artificial Intelligence,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,1,1,1
+P086,Recommender Systems; Information Retrieval,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,0,0,0
+P087,Recommender Systems; Information Retrieval,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,0,0,0
+P088,Recommender Systems; Information Retrieval,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,0,0,0
+P089,Recommender Systems; Information Retrieval,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,0,0,0
+P090,Recommender Systems; Information Retrieval,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",0,0,0
+P091,Machine Learning,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,1,1,1
+P092,Machine Learning,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",0,0,0
+P093,Machine Learning,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,1,1,1
+P094,Machine Learning,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,1,1,1
+P095,Machine Learning,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,1,1,1
+P096,Data Mining; Artificial Intelligence,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,0,0,0
+P097,Data Mining; Artificial Intelligence,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,0,0,0
+P098,Data Mining; Artificial Intelligence,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",0,0,0
+P099,Data Mining; Artificial Intelligence,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,1,1,1
+P100,Data Mining; Artificial Intelligence,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,0,0,0
+P101,Artificial Intelligence; Knowledge Representation,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",0,0,0
+P102,Artificial Intelligence; Knowledge Representation,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,1,1,1
+P103,Artificial Intelligence; Knowledge Representation,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,1,1,1
+P104,Artificial Intelligence; Knowledge Representation,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,1,1,1
+P105,Artificial Intelligence; Knowledge Representation,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,1,1,1
+P106,Data Management; Ontologies; Semantic Web,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,0,0,0
+P107,Data Management; Ontologies; Semantic Web,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,0,0,0
+P108,Data Management; Ontologies; Semantic Web,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,0,0,0
+P109,Data Management; Ontologies; Semantic Web,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",0,0,0
+P110,Data Management; Ontologies; Semantic Web,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,0,0,0
+P111,Machine Learning; Reinforcement Learning,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",0,0,0
+P112,Machine Learning; Reinforcement Learning,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,0,0,0
+P113,Machine Learning; Reinforcement Learning,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,0,0,0
+P114,Machine Learning; Reinforcement Learning,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,0,0,0
+P115,Machine Learning; Reinforcement Learning,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,0,0,0
+P116,Software Engineering; Software Testing,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,0,0,0
+P117,Software Engineering; Software Testing,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,0,0,0
+P118,Software Engineering; Software Testing,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",1,1,1
+P119,Software Engineering; Software Testing,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,0,0,0
+P120,Software Engineering; Software Testing,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,0,0,0
+P121,Software Engineering; Requirements Engineering; Software Testing,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,0,0,0
+P122,Software Engineering; Requirements Engineering; Software Testing,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,0,0,0
+P123,Software Engineering; Requirements Engineering; Software Testing,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",1,1,1
+P124,Software Engineering; Requirements Engineering; Software Testing,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,0,0,0
+P125,Software Engineering; Requirements Engineering; Software Testing,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,0,0,0
+P126,Information Retrieval; Semantic Web,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,0,0,1
+P127,Information Retrieval; Semantic Web,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,0,0,1
+P128,Information Retrieval; Semantic Web,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,0,0,1
+P129,Information Retrieval; Semantic Web,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,0,1,0
+P130,Information Retrieval; Semantic Web,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",0,1,0
+P131,Reinforcement Learning; Knowledge Representation,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",0,0,0
+P132,Reinforcement Learning; Knowledge Representation,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,1,0,0
+P133,Reinforcement Learning; Knowledge Representation,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,1,0,0
+P134,Reinforcement Learning; Knowledge Representation,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,1,1,0
+P135,Reinforcement Learning; Knowledge Representation,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,0,0,1
+P136,Artificial Intelligence; Reinforcement Learning,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,0,1,0
+P137,Artificial Intelligence; Reinforcement Learning,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,1,1,1
+P138,Artificial Intelligence; Reinforcement Learning,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",0,0,0
+P139,Artificial Intelligence; Reinforcement Learning,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,1,1,1
+P140,Artificial Intelligence; Reinforcement Learning,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,1,1,1
+P141,Natural Language Processing; Artificial Intelligence,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,1,1,1
+P142,Natural Language Processing; Artificial Intelligence,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,1,1,1
+P143,Natural Language Processing; Artificial Intelligence,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",0,0,0
+P144,Natural Language Processing; Artificial Intelligence,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,1,1,1
+P145,Natural Language Processing; Artificial Intelligence,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,1,1,1
+P146,Deep Learning; Information Retrieval; Artificial Intelligence,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,1,1,1
+P147,Deep Learning; Information Retrieval; Artificial Intelligence,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",0,0,0
+P148,Deep Learning; Information Retrieval; Artificial Intelligence,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,1,1,1
+P149,Deep Learning; Information Retrieval; Artificial Intelligence,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,1,1,1
+P150,Deep Learning; Information Retrieval; Artificial Intelligence,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,1,1,1
+P151,Machine Learning; Knowledge Representation,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,1,0,0
+P152,Machine Learning; Knowledge Representation,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",0,0,0
+P153,Machine Learning; Knowledge Representation,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,1,0,0
+P154,Machine Learning; Knowledge Representation,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,1,0,0
+P155,Machine Learning; Knowledge Representation,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,0,1,0
+P156,Deep Learning; Knowledge Representation,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",0,0,0
+P157,Deep Learning; Knowledge Representation,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,0,0,0
+P158,Deep Learning; Knowledge Representation,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,0,0,0
+P159,Deep Learning; Knowledge Representation,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,0,0,0
+P160,Deep Learning; Knowledge Representation,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,0,0,0
+P161,Reinforcement Learning; Knowledge Representation,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",0,0,0
+P162,Reinforcement Learning; Knowledge Representation,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,1,0,0
+P163,Reinforcement Learning; Knowledge Representation,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,0,1,0
+P164,Reinforcement Learning; Knowledge Representation,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,0,1,0
+P165,Reinforcement Learning; Knowledge Representation,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,1,0,0
+P166,Ontologies; Semantic Web; Natural Language Processing,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",0,0,0
+P167,Ontologies; Semantic Web; Natural Language Processing,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,1,1,1
+P168,Ontologies; Semantic Web; Natural Language Processing,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,0,0,0
+P169,Ontologies; Semantic Web; Natural Language Processing,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,0,0,0
+P170,Ontologies; Semantic Web; Natural Language Processing,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,0,0,0
+P171,Computer Vision; Deep Learning,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,0,0,0
+P172,Computer Vision; Deep Learning,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,1,1,1
+P173,Computer Vision; Deep Learning,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",0,0,0
+P174,Computer Vision; Deep Learning,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,1,1,1
+P175,Computer Vision; Deep Learning,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,0,0,0
+P176,Data Management; Semantic Web,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,0,0,0
+P177,Data Management; Semantic Web,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,0,0,0
+P178,Data Management; Semantic Web,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,0,0,0
+P179,Data Management; Semantic Web,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",0,0,0
+P180,Data Management; Semantic Web,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,0,0,0
+P181,Software Engineering; Software Testing,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,0,0,0
+P182,Software Engineering; Software Testing,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",1,1,1
+P183,Software Engineering; Software Testing,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,0,0,0
+P184,Software Engineering; Software Testing,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,0,0,0
+P185,Software Engineering; Software Testing,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,0,0,0
+P186,Recommender Systems; Data Mining; Artificial Intelligence,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,1,1,1
+P187,Recommender Systems; Data Mining; Artificial Intelligence,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,1,1,1
+P188,Recommender Systems; Data Mining; Artificial Intelligence,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",0,0,0
+P189,Recommender Systems; Data Mining; Artificial Intelligence,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,1,1,1
+P190,Recommender Systems; Data Mining; Artificial Intelligence,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,1,1,1
+P191,Natural Language Processing; Semantic Web,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,0,0,0
+P192,Natural Language Processing; Semantic Web,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,0,0,0
+P193,Natural Language Processing; Semantic Web,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",0,0,0
+P194,Natural Language Processing; Semantic Web,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,0,0,0
+P195,Natural Language Processing; Semantic Web,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,1,1,1
+P196,Databases; Semantic Web,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,0,0,0
+P197,Databases; Semantic Web,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,0,0,0
+P198,Databases; Semantic Web,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",0,0,0
+P199,Databases; Semantic Web,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,0,0,0
+P200,Databases; Semantic Web,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,0,0,0
+P201,Software Engineering; Ontologies; Semantic Web,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,0,0,0
+P202,Software Engineering; Ontologies; Semantic Web,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",1,1,1
+P203,Software Engineering; Ontologies; Semantic Web,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,0,0,0
+P204,Software Engineering; Ontologies; Semantic Web,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,0,0,0
+P205,Software Engineering; Ontologies; Semantic Web,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,0,0,0
+P206,Recommender Systems; Machine Learning,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,0,0,0
+P207,Recommender Systems; Machine Learning,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,0,0,0
+P208,Recommender Systems; Machine Learning,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,0,0,0
+P209,Recommender Systems; Machine Learning,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",0,0,0
+P210,Recommender Systems; Machine Learning,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,0,0,0
+P211,Software Engineering; Software Testing,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,0,0,0
+P212,Software Engineering; Software Testing,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,0,0,0
+P213,Software Engineering; Software Testing,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",1,1,1
+P214,Software Engineering; Software Testing,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,0,0,0
+P215,Software Engineering; Software Testing,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,0,0,0
+P216,Ontologies; Semantic Web,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",0,0,0
+P217,Ontologies; Semantic Web,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,0,0,0
+P218,Ontologies; Semantic Web,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,0,0,0
+P219,Ontologies; Semantic Web,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,0,0,0
+P220,Ontologies; Semantic Web,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,0,0,0
+P221,Semantic Web; Software Engineering; Software Testing,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,0,0,0
+P222,Semantic Web; Software Engineering; Software Testing,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,0,0,0
+P223,Semantic Web; Software Engineering; Software Testing,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,0,0,0
+P224,Semantic Web; Software Engineering; Software Testing,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",1,1,1
+P225,Semantic Web; Software Engineering; Software Testing,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,0,0,0
+P226,Natural Language Processing; Knowledge Representation,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,0,0,0
+P227,Natural Language Processing; Knowledge Representation,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,1,1,1
+P228,Natural Language Processing; Knowledge Representation,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,0,0,0
+P229,Natural Language Processing; Knowledge Representation,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",0,0,0
+P230,Natural Language Processing; Knowledge Representation,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,0,0,0
+P231,Information Retrieval; Natural Language Processing,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,0,0,0
+P232,Information Retrieval; Natural Language Processing,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,0,0,0
+P233,Information Retrieval; Natural Language Processing,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",0,0,0
+P234,Information Retrieval; Natural Language Processing,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,0,0,0
+P235,Information Retrieval; Natural Language Processing,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,1,1,1
+P236,Recommender Systems; Deep Learning,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,0,0,0
+P237,Recommender Systems; Deep Learning,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,0,0,0
+P238,Recommender Systems; Deep Learning,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",0,0,0
+P239,Recommender Systems; Deep Learning,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,0,0,0
+P240,Recommender Systems; Deep Learning,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,0,0,0
+P241,Computer Vision; Artificial Intelligence,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",0,0,0
+P242,Computer Vision; Artificial Intelligence,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,1,1,1
+P243,Computer Vision; Artificial Intelligence,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,1,1,1
+P244,Computer Vision; Artificial Intelligence,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,1,1,1
+P245,Computer Vision; Artificial Intelligence,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,1,1,1
+P246,Semantic Web; Computer Vision,Dr. Muhammad Munsarif — Artificial Intelligence; Computer Vision,1,1,1
+P247,Semantic Web; Computer Vision,Dr. Ahmad Ilham — Artificial Intelligence; Data Mining,0,0,0
+P248,Semantic Web; Computer Vision,Dr. Dhendra Marutho — Artificial Intelligence; Natural Language Processing,0,0,0
+P249,Semantic Web; Computer Vision,"Asdani Kindarto, PhD — Software Engineering; Requirements Engineering",0,0,0
+P250,Semantic Web; Computer Vision,Prof. Dr. Edy Winarno — Artificial Intelligence; Computer Vision,1,1,1

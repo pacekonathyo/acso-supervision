@@ -1,0 +1,61 @@
+id,expertise,max_capacity,current_load,available,completion_rate,h_index
+sup000,Artificial Intelligence,3,1,True,0.65,9
+sup001,Computing|Software Engineering|Ontologies,2,0,True,0.59,17
+sup002,Software Testing|Artificial Intelligence|Semantic Web,3,4,False,0.73,31
+sup003,Knowledge Representation|Artificial Intelligence|Databases,4,2,True,0.67,16
+sup004,Data Management|Computing,4,0,True,0.7,25
+sup005,Knowledge Representation|Computer Vision|Recommender Systems,5,0,True,0.97,27
+sup006,Semantic Web,3,4,False,0.93,26
+sup007,Deep Learning|Computing|Computer Vision,3,2,True,0.97,17
+sup008,Networking,3,3,False,0.82,26
+sup009,Network Security,3,1,True,0.84,7
+sup010,Wireless Networks|Databases|Semantic Web,3,1,True,0.75,20
+sup011,Information Retrieval|Natural Language Processing|Computer Vision,3,0,True,0.9,28
+sup012,Computing|Deep Learning,5,5,False,0.69,34
+sup013,Wireless Networks|Recommender Systems,3,2,True,0.61,38
+sup014,Knowledge Representation|Software Engineering|Ontologies,5,3,True,0.71,11
+sup015,Reinforcement Learning|Computing|Computer Vision,2,1,True,0.82,30
+sup016,Computing|Networking|Software Testing,5,3,True,0.78,38
+sup017,Data Management,5,6,False,0.66,24
+sup018,Machine Learning,4,1,True,0.75,19
+sup019,Databases|Requirements Engineering|Data Management,3,4,False,0.81,12
+sup020,Databases|Semantic Web,5,0,True,0.81,34
+sup021,Data Management,3,2,True,0.65,18
+sup022,Computing|Wireless Networks|Reinforcement Learning,2,1,True,0.61,33
+sup023,Databases|Knowledge Representation|Requirements Engineering,5,3,True,0.96,37
+sup024,Machine Learning,4,5,False,0.83,31
+sup025,Recommender Systems|Data Management|Information Retrieval,3,0,True,0.7,40
+sup026,Information Retrieval|Software Engineering|Wireless Networks,2,0,True,0.85,6
+sup027,Computing,2,2,False,0.58,18
+sup028,Reinforcement Learning|Deep Learning,5,1,True,0.86,39
+sup029,Reinforcement Learning|Information Retrieval|Wireless Networks,4,1,True,0.59,30
+sup030,Ontologies|Wireless Networks,4,5,False,0.57,9
+sup031,Networking,3,0,True,0.66,15
+sup032,Recommender Systems|Data Mining|Ontologies,3,2,True,0.75,7
+sup033,Semantic Web|Data Management,2,0,True,0.97,18
+sup034,Ontologies,4,3,True,0.64,28
+sup035,Databases,4,0,True,0.97,19
+sup036,Machine Learning|Ontologies,5,5,False,0.86,12
+sup037,Machine Learning,3,0,True,0.8,37
+sup038,Natural Language Processing,2,0,True,0.8,35
+sup039,Databases|Computer Vision|Requirements Engineering,2,1,True,0.58,7
+sup040,Networking,2,1,True,0.8,5
+sup041,Computing|Ontologies|Software Engineering,5,4,True,0.69,19
+sup042,Natural Language Processing,3,2,True,0.72,22
+sup043,Natural Language Processing|Computing,2,3,False,0.82,39
+sup044,Computing,5,1,True,0.77,11
+sup045,Computing|Information Retrieval,3,2,True,0.62,37
+sup046,Software Testing|Requirements Engineering,2,2,False,0.95,9
+sup047,Knowledge Representation,2,0,True,0.87,12
+sup048,Machine Learning|Software Testing,3,2,True,0.64,19
+sup049,Reinforcement Learning|Knowledge Representation|Computer Vision,2,3,False,0.91,5
+sup050,Natural Language Processing,3,2,True,0.62,31
+sup051,Ontologies|Semantic Web|Artificial Intelligence,2,0,True,0.96,12
+sup052,Computer Vision|Network Security|Software Engineering,5,1,True,0.73,5
+sup053,Network Security|Computer Vision,3,1,True,0.84,9
+sup054,Semantic Web|Ontologies,5,5,False,0.62,18
+sup055,Databases,4,0,True,0.63,24
+sup056,Information Retrieval|Knowledge Representation,3,0,True,0.71,5
+sup057,Information Retrieval|Deep Learning,4,2,True,0.68,17
+sup058,Artificial Intelligence,3,3,False,0.69,7
+sup059,Network Security|Requirements Engineering,4,5,False,0.97,37

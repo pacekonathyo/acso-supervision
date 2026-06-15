@@ -1,0 +1,88 @@
+{
+  "config": {
+    "seed": 42,
+    "n_supervisors": 60,
+    "n_students": 300,
+    "k": 5,
+    "n_topics": 21,
+    "students_with_relevant": 300,
+    "avg_relevant_per_student": 12.78
+  },
+  "recommendation": {
+    "AcSO (semantic + rules + quality)": {
+      "P@k": 0.968,
+      "R@k": 0.4504,
+      "F1@k": 0.5881,
+      "MAP": 0.9149,
+      "nDCG@k": 0.9744
+    },
+    "Ablation: semantic only (no rules)": {
+      "P@k": 0.6547,
+      "R@k": 0.2934,
+      "F1@k": 0.3905,
+      "MAP": 0.6867,
+      "nDCG@k": 0.6634
+    },
+    "TF-IDF / cosine": {
+      "P@k": 0.6513,
+      "R@k": 0.2936,
+      "F1@k": 0.389,
+      "MAP": 0.604,
+      "nDCG@k": 0.6575
+    },
+    "Jaccard keyword overlap": {
+      "P@k": 0.6233,
+      "R@k": 0.2787,
+      "F1@k": 0.3707,
+      "MAP": 0.5266,
+      "nDCG@k": 0.6465
+    }
+  },
+  "significance_acso_vs_tfidf_ndcg": {
+    "wilcoxon_stat": 0.0,
+    "p_value": 0.0
+  },
+  "tracking": {
+    "AcSO multi-condition rules": {
+      "precision": 0.5368421052631579,
+      "recall": 0.5930232558139535,
+      "f1": 0.56353591160221,
+      "accuracy": 0.7366666666666667,
+      "tp": 51,
+      "fp": 44,
+      "tn": 170,
+      "fn": 35
+    },
+    "Naive single-condition rule": {
+      "precision": 0.312,
+      "recall": 0.9069767441860465,
+      "f1": 0.46428571428571436,
+      "accuracy": 0.4,
+      "tp": 78,
+      "fp": 172,
+      "tn": 42,
+      "fn": 8
+    }
+  },
+  "tracking_base_rate_late": 0.2867,
+  "ndcg_sweep": {
+    "AcSO": {
+      "1": 1.0,
+      "3": 0.9864,
+      "5": 0.9744,
+      "10": 0.9392
+    },
+    "TF-IDF": {
+      "1": 0.67,
+      "3": 0.6679,
+      "5": 0.6575,
+      "10": 0.6756
+    },
+    "Jaccard": {
+      "1": 0.73,
+      "3": 0.6722,
+      "5": 0.6465,
+      "10": 0.5948
+    }
+  }
+}

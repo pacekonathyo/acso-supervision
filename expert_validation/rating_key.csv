@@ -1,0 +1,61 @@
+pair_code,student_id,supervisor_id,supervisor_name,acso_score,acso_topk,acso_rank
+P001,s01,fac2,Dr. Muhammad Munsarif,0.8,0,3
+P002,s01,fac3,Dr. Dhendra Marutho,1.0,1,1
+P003,s01,fac1,Prof. Dr. Edy Winarno,0.8,1,2
+P004,s01,fac5,"Asdani Kindarto, PhD",0.4,0,5
+P005,s01,fac4,Dr. Ahmad Ilham,0.8,0,4
+P006,s02,fac5,"Asdani Kindarto, PhD",0.4,0,5
+P007,s02,fac1,Prof. Dr. Edy Winarno,1.0,1,1
+P008,s02,fac3,Dr. Dhendra Marutho,0.8,0,3
+P009,s02,fac4,Dr. Ahmad Ilham,0.8,0,4
+P010,s02,fac2,Dr. Muhammad Munsarif,1.0,1,2
+P011,s03,fac2,Dr. Muhammad Munsarif,0.4,0,3
+P012,s03,fac5,"Asdani Kindarto, PhD",0.4,0,5
+P013,s03,fac1,Prof. Dr. Edy Winarno,0.4,1,2
+P014,s03,fac3,Dr. Dhendra Marutho,0.4,0,4
+P015,s03,fac4,Dr. Ahmad Ilham,1.0,1,1
+P016,s04,fac4,Dr. Ahmad Ilham,0.4,0,4
+P017,s04,fac2,Dr. Muhammad Munsarif,0.4,1,2
+P018,s04,fac3,Dr. Dhendra Marutho,0.4,0,3
+P019,s04,fac5,"Asdani Kindarto, PhD",0.4,0,5
+P020,s04,fac1,Prof. Dr. Edy Winarno,1.0,1,1
+P021,s05,fac4,Dr. Ahmad Ilham,0.4,0,5
+P022,s05,fac5,"Asdani Kindarto, PhD",1.0,1,1
+P023,s05,fac2,Dr. Muhammad Munsarif,0.4,0,3
+P024,s05,fac1,Prof. Dr. Edy Winarno,0.4,1,2
+P025,s05,fac3,Dr. Dhendra Marutho,0.4,0,4
+P026,s06,fac2,Dr. Muhammad Munsarif,0.8,1,2
+P027,s06,fac3,Dr. Dhendra Marutho,0.8,0,3
+P028,s06,fac4,Dr. Ahmad Ilham,0.8,0,4
+P029,s06,fac1,Prof. Dr. Edy Winarno,0.8,1,1
+P030,s06,fac5,"Asdani Kindarto, PhD",0.4,0,5
+P031,s07,fac4,Dr. Ahmad Ilham,0.6667,0,4
+P032,s07,fac1,Prof. Dr. Edy Winarno,0.6667,1,1
+P033,s07,fac3,Dr. Dhendra Marutho,0.6667,0,3
+P034,s07,fac5,"Asdani Kindarto, PhD",0.3333,0,5
+P035,s07,fac2,Dr. Muhammad Munsarif,0.6667,1,2
+P036,s08,fac5,"Asdani Kindarto, PhD",0.4,0,5
+P037,s08,fac1,Prof. Dr. Edy Winarno,1.0,1,1
+P038,s08,fac2,Dr. Muhammad Munsarif,1.0,1,2
+P039,s08,fac3,Dr. Dhendra Marutho,0.8,0,3
+P040,s08,fac4,Dr. Ahmad Ilham,0.8,0,4
+P041,s09,fac3,Dr. Dhendra Marutho,1.0,1,1
+P042,s09,fac4,Dr. Ahmad Ilham,0.8,0,4
+P043,s09,fac2,Dr. Muhammad Munsarif,0.8,0,3
+P044,s09,fac1,Prof. Dr. Edy Winarno,0.8,1,2
+P045,s09,fac5,"Asdani Kindarto, PhD",0.4,0,5
+P046,s10,fac1,Prof. Dr. Edy Winarno,0.4,1,2
+P047,s10,fac5,"Asdani Kindarto, PhD",0.4,0,5
+P048,s10,fac2,Dr. Muhammad Munsarif,0.4,0,3
+P049,s10,fac4,Dr. Ahmad Ilham,1.0,1,1
+P050,s10,fac3,Dr. Dhendra Marutho,0.4,0,4
+P051,s11,fac5,"Asdani Kindarto, PhD",0.5,0,5
+P052,s11,fac1,Prof. Dr. Edy Winarno,1.0,1,1
+P053,s11,fac2,Dr. Muhammad Munsarif,1.0,1,2
+P054,s11,fac3,Dr. Dhendra Marutho,1.0,0,3
+P055,s11,fac4,Dr. Ahmad Ilham,1.0,0,4
+P056,s12,fac2,Dr. Muhammad Munsarif,0.8,0,4
+P057,s12,fac4,Dr. Ahmad Ilham,1.0,1,2
+P058,s12,fac3,Dr. Dhendra Marutho,1.0,1,1
+P059,s12,fac5,"Asdani Kindarto, PhD",0.4,0,5
+P060,s12,fac1,Prof. Dr. Edy Winarno,0.8,0,3

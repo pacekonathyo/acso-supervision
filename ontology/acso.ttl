@@ -1,0 +1,255 @@
+@prefix acso:  <http://purl.org/acso#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+
+#################################################################
+#    Ontology metadata
+#################################################################
+
+<http://purl.org/acso> a owl:Ontology ;
+    dcterms:title "AcSO: Academic Supervision Ontology"@en ;
+    dcterms:description "An OWL 2 DL ontology for representing graduate research supervision, progress tracking, and ontology-driven supervisor recommendation."@en ;
+    owl:versionInfo "1.0" .
+
+#################################################################
+#    Classes
+#################################################################
+
+acso:Person a owl:Class ;
+    rdfs:label "Person"@en .
+
+acso:Student a owl:Class ;
+    rdfs:subClassOf acso:Person ;
+    rdfs:label "Student"@en .
+
+acso:MastersStudent a owl:Class ;
+    rdfs:subClassOf acso:Student ;
+    rdfs:label "Master's Student"@en .
+
+acso:DoctoralStudent a owl:Class ;
+    rdfs:subClassOf acso:Student ;
+    rdfs:label "Doctoral Student"@en .
+
+acso:Supervisor a owl:Class ;
+    rdfs:subClassOf acso:Person ;
+    rdfs:label "Supervisor"@en .
+
+# A supervisor that still has capacity for new students (inferred via R1).
+acso:AvailableSupervisor a owl:Class ;
+    rdfs:subClassOf acso:Supervisor ;
+    rdfs:label "Available Supervisor"@en .
+
+# A supervisor whose expertise matches a given student (inferred via R5).
+acso:CandidateSupervisor a owl:Class ;
+    rdfs:subClassOf acso:Supervisor ;
+    rdfs:label "Candidate Supervisor"@en .
+
+# A student flagged as needing intervention (inferred via R3/R4).
+acso:AtRiskStudent a owl:Class ;
+    rdfs:subClassOf acso:Student ;
+    rdfs:label "At-Risk Student"@en .
+
+acso:AcademicProgram a owl:Class ;
+    rdfs:label "Academic Program"@en .
+
+acso:ResearchTopic a owl:Class ;
+    rdfs:label "Research Topic"@en .
+
+# Reified n-ary supervision relationship (student-supervisor-role).
+acso:SupervisionRelationship a owl:Class ;
+    rdfs:label "Supervision Relationship"@en .
+
+acso:Milestone a owl:Class ;
+    rdfs:label "Milestone"@en .
+
+acso:ProposalDefense   a owl:Class ; rdfs:subClassOf acso:Milestone ; rdfs:label "Proposal Defense"@en .
+acso:ProgressSeminar   a owl:Class ; rdfs:subClassOf acso:Milestone ; rdfs:label "Progress Seminar"@en .
+acso:ThesisDraft       a owl:Class ; rdfs:subClassOf acso:Milestone ; rdfs:label "Thesis Draft"@en .
+acso:FinalDefense      a owl:Class ; rdfs:subClassOf acso:Milestone ; rdfs:label "Final Defense"@en .
+
+# A milestone whose due date has passed without completion (inferred via R2).
+acso:OverdueMilestone a owl:Class ;
+    rdfs:subClassOf acso:Milestone ;
+    rdfs:label "Overdue Milestone"@en .
+
+acso:SupervisionMeeting a owl:Class ;
+    rdfs:label "Supervision Meeting"@en .
+
+acso:RiskFlag a owl:Class ;
+    rdfs:label "Risk Flag"@en .
+
+# A student and a supervisor are disjoint roles of Person.
+acso:Student owl:disjointWith acso:Supervisor .
+
+#################################################################
+#    Object properties
+#################################################################
+
+acso:supervises a owl:ObjectProperty ;
+    rdfs:domain acso:Supervisor ;
+    rdfs:range  acso:Student ;
+    owl:inverseOf acso:isSupervisedBy ;
+    rdfs:label "supervises"@en .
+
+acso:isSupervisedBy a owl:ObjectProperty ;
+    rdfs:domain acso:Student ;
+    rdfs:range  acso:Supervisor ;
+    rdfs:label "is supervised by"@en .
+
+acso:coSupervisesWith a owl:ObjectProperty , owl:SymmetricProperty ;
+    rdfs:domain acso:Supervisor ;
+    rdfs:range  acso:Supervisor ;
+    rdfs:label "co-supervises with"@en .
+
+acso:hasExpertiseIn a owl:ObjectProperty ;
+    rdfs:domain acso:Supervisor ;
+    rdfs:range  acso:ResearchTopic ;
+    rdfs:label "has expertise in"@en .
+
+acso:hasResearchInterest a owl:ObjectProperty ;
+    rdfs:domain acso:Person ;
+    rdfs:range  acso:ResearchTopic ;
+    rdfs:label "has research interest"@en .
+
+acso:hasTopic a owl:ObjectProperty ;
+    rdfs:domain acso:Student ;
+    rdfs:range  acso:ResearchTopic ;
+    rdfs:label "has topic"@en .
+
+acso:enrolledIn a owl:ObjectProperty ;
+    rdfs:domain acso:Student ;
+    rdfs:range  acso:AcademicProgram ;
+    rdfs:label "enrolled in"@en .
+
+acso:hasMilestone a owl:ObjectProperty ;
+    rdfs:domain acso:SupervisionRelationship ;
+    rdfs:range  acso:Milestone ;
+    rdfs:label "has milestone"@en .
+
+acso:hasMeeting a owl:ObjectProperty ;
+    rdfs:domain acso:SupervisionRelationship ;
+    rdfs:range  acso:SupervisionMeeting ;
+    rdfs:label "has meeting"@en .
+
+acso:involvesStudent a owl:ObjectProperty ;
+    rdfs:domain acso:SupervisionRelationship ;
+    rdfs:range  acso:Student ;
+    rdfs:label "involves student"@en .
+
+acso:involvesSupervisor a owl:ObjectProperty ;
+    rdfs:domain acso:SupervisionRelationship ;
+    rdfs:range  acso:Supervisor ;
+    rdfs:label "involves supervisor"@en .
+
+acso:hasRiskFlag a owl:ObjectProperty ;
+    rdfs:domain acso:Student ;
+    rdfs:range  acso:RiskFlag ;
+    rdfs:label "has risk flag"@en .
+
+# Topic taxonomy relations (transitive broader, symmetric relatedness).
+acso:broaderTopic a owl:ObjectProperty , owl:TransitiveProperty ;
+    rdfs:domain acso:ResearchTopic ;
+    rdfs:range  acso:ResearchTopic ;
+    owl:inverseOf acso:narrowerTopic ;
+    rdfs:label "broader topic"@en .
+
+acso:narrowerTopic a owl:ObjectProperty , owl:TransitiveProperty ;
+    rdfs:domain acso:ResearchTopic ;
+    rdfs:range  acso:ResearchTopic ;
+    rdfs:label "narrower topic"@en .
+
+acso:relatedTopic a owl:ObjectProperty , owl:SymmetricProperty ;
+    rdfs:domain acso:ResearchTopic ;
+    rdfs:range  acso:ResearchTopic ;
+    rdfs:label "related topic"@en .
+
+# Derived recommendation link (asserted by the recommendation engine).
+acso:recommendedSupervisor a owl:ObjectProperty ;
+    rdfs:domain acso:Student ;
+    rdfs:range  acso:Supervisor ;
+    rdfs:label "recommended supervisor"@en .
+
+#################################################################
+#    Datatype properties
+#################################################################
+
+acso:personId          a owl:DatatypeProperty ; rdfs:range xsd:string  ; rdfs:label "person id"@en .
+acso:fullName          a owl:DatatypeProperty ; rdfs:range xsd:string  ; rdfs:label "full name"@en .
+acso:enrolmentDate     a owl:DatatypeProperty ; rdfs:range xsd:date    ; rdfs:label "enrolment date"@en .
+acso:expectedCompletion a owl:DatatypeProperty ; rdfs:range xsd:date   ; rdfs:label "expected completion date"@en .
+acso:currentLoad       a owl:DatatypeProperty ; rdfs:range xsd:integer ; rdfs:label "current load"@en .
+acso:maxCapacity       a owl:DatatypeProperty ; rdfs:range xsd:integer ; rdfs:label "max capacity"@en .
+acso:hIndex            a owl:DatatypeProperty ; rdfs:range xsd:integer ; rdfs:label "h-index"@en .
+acso:publicationCount  a owl:DatatypeProperty ; rdfs:range xsd:integer ; rdfs:label "publication count"@en .
+acso:completionRate    a owl:DatatypeProperty ; rdfs:range xsd:decimal ; rdfs:label "historical on-time completion rate"@en .
+acso:progressPercentage a owl:DatatypeProperty ; rdfs:range xsd:decimal ; rdfs:label "progress percentage"@en .
+acso:dueDate           a owl:DatatypeProperty ; rdfs:range xsd:date    ; rdfs:label "milestone due date"@en .
+acso:completionDate    a owl:DatatypeProperty ; rdfs:range xsd:date    ; rdfs:label "milestone completion date"@en .
+acso:milestoneStatus   a owl:DatatypeProperty ; rdfs:range xsd:string  ; rdfs:label "milestone status"@en .
+acso:meetingDate       a owl:DatatypeProperty ; rdfs:range xsd:date    ; rdfs:label "meeting date"@en .
+acso:daysSinceLastMeeting a owl:DatatypeProperty ; rdfs:range xsd:integer ; rdfs:label "days since last meeting"@en .
+
+#################################################################
+#    Research-topic taxonomy (slice; structure inspired by ACM CCS)
+#    Modelled with rdfs:subClassOf so the reasoner computes
+#    is-a depth used by the Wu-Palmer semantic similarity measure.
+#################################################################
+
+acso:Computing            a acso:ResearchTopic ; rdfs:label "Computing"@en .
+
+acso:ArtificialIntelligence a acso:ResearchTopic ; rdfs:label "Artificial Intelligence"@en ;
+    acso:broaderTopic acso:Computing .
+acso:DataManagement       a acso:ResearchTopic ; rdfs:label "Data Management"@en ;
+    acso:broaderTopic acso:Computing .
+acso:Networking           a acso:ResearchTopic ; rdfs:label "Networking"@en ;
+    acso:broaderTopic acso:Computing .
+acso:SoftwareEngineering  a acso:ResearchTopic ; rdfs:label "Software Engineering"@en ;
+    acso:broaderTopic acso:Computing .
+
+acso:MachineLearning      a acso:ResearchTopic ; rdfs:label "Machine Learning"@en ;
+    acso:broaderTopic acso:ArtificialIntelligence .
+acso:KnowledgeRepresentation a acso:ResearchTopic ; rdfs:label "Knowledge Representation"@en ;
+    acso:broaderTopic acso:ArtificialIntelligence .
+acso:NaturalLanguageProcessing a acso:ResearchTopic ; rdfs:label "Natural Language Processing"@en ;
+    acso:broaderTopic acso:ArtificialIntelligence .
+
+acso:DeepLearning         a acso:ResearchTopic ; rdfs:label "Deep Learning"@en ;
+    acso:broaderTopic acso:MachineLearning .
+acso:ReinforcementLearning a acso:ResearchTopic ; rdfs:label "Reinforcement Learning"@en ;
+    acso:broaderTopic acso:MachineLearning .
+acso:SemanticWeb          a acso:ResearchTopic ; rdfs:label "Semantic Web"@en ;
+    acso:broaderTopic acso:KnowledgeRepresentation ;
+    acso:relatedTopic acso:DataManagement .
+acso:Ontologies           a acso:ResearchTopic ; rdfs:label "Ontologies"@en ;
+    acso:broaderTopic acso:KnowledgeRepresentation ;
+    acso:relatedTopic acso:SemanticWeb .
+
+acso:Databases            a acso:ResearchTopic ; rdfs:label "Databases"@en ;
+    acso:broaderTopic acso:DataManagement .
+acso:InformationRetrieval a acso:ResearchTopic ; rdfs:label "Information Retrieval"@en ;
+    acso:broaderTopic acso:DataManagement ;
+    acso:relatedTopic acso:NaturalLanguageProcessing .
+acso:DataMining           a acso:ResearchTopic ; rdfs:label "Data Mining"@en ;
+    acso:broaderTopic acso:DataManagement ;
+    acso:relatedTopic acso:MachineLearning .
+
+acso:ComputerVision       a acso:ResearchTopic ; rdfs:label "Computer Vision"@en ;
+    acso:broaderTopic acso:ArtificialIntelligence ;
+    acso:relatedTopic acso:DeepLearning .
+acso:RecommenderSystems   a acso:ResearchTopic ; rdfs:label "Recommender Systems"@en ;
+    acso:broaderTopic acso:DataManagement ;
+    acso:relatedTopic acso:MachineLearning .
+
+acso:WirelessNetworks     a acso:ResearchTopic ; rdfs:label "Wireless Networks"@en ;
+    acso:broaderTopic acso:Networking .
+acso:NetworkSecurity      a acso:ResearchTopic ; rdfs:label "Network Security"@en ;
+    acso:broaderTopic acso:Networking .
+
+acso:SoftwareTesting      a acso:ResearchTopic ; rdfs:label "Software Testing"@en ;
+    acso:broaderTopic acso:SoftwareEngineering .
+acso:RequirementsEngineering a acso:ResearchTopic ; rdfs:label "Requirements Engineering"@en ;
+    acso:broaderTopic acso:SoftwareEngineering .
